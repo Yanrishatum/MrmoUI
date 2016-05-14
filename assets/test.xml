@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!-- var panel:Panel = GuiBuilder.build(xml, root, ["text"=>"Mrmo doing awesome designs]"]); -->
+<Panel width="166" height="100" outlined="false" innerColor="0xdaefef" outerColor="0xdb824d"
+       title="Alert; Resizable!" arg:title="title" dragable="true" resizable="true" minWidth="166" minHeight="140">
+  <Sizer once="true" left="0" right="0" top="0" bottom="0" width="166" height="140" />
+  <Label align="center" text="Components are using automatic resizing via Sizer, enabling pretty neat fluid interfaces" y="10" output="label">
+    <Sizer width="100%" height="80"/>
+  </Label>
+  <TextArea placeholder="Placeholder text" placeholderColor="0xbcd1d1" color="0" outlineColor="0x9eb3b3">
+    <Sizer left="5" right="5" top="50" bottom="40" />
+  </TextArea>
+  <Button text="OK" width="100" foreground="0xffffff" background="0x62696f">
+    <Icon name="ok" foreground="0xffffff" background="0x49bb00"/>
+    <Sizer left="0" right="0" bottom="11" width="100"/>
+  </Button>
+  <Button foreground="0xffffff" background="0x62696f">
+    <Icon name="cross" foreground="0xffffff" background="0x62696f"/>
+    <Sizer left="2%" bottom="11"/>
+  </Button>
+</Panel>
